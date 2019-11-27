@@ -11,12 +11,12 @@ else:
     long_description = '''A toolkit for extracting chemical information from the scientific literature.'''
 
 setup(
-    name='ChemDataExtractor',
-    version='1.3.0',
-    author='Matt Swain',
-    author_email='m.swain@me.com',
+    name='ChemDataExtractor-IDE',
+    version='1.3.1',
+    author='Matt Swain, Ed Beard',
+    author_email='m.swain@me.com, ed.beard94@gmail.com',
     license='MIT',
-    url='https://github.com/mcs07/ChemDataExtractor',
+    url='https://github.com/edbeard/chemdataextractor-ide.git',
     packages=find_packages(),
     description='A toolkit for extracting chemical information from the scientific literature.',
     long_description=long_description,
@@ -33,8 +33,6 @@ setup(
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Topic :: Internet :: WWW/HTTP :: Indexing/Search',
         'Topic :: Scientific/Engineering',
         'Topic :: Scientific/Engineering :: Bio-Informatics',
